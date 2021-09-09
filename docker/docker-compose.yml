@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  fast_wrapper:
+    image: twista
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: ../

@@ -1,7 +1,7 @@
 version: '3'
 services: 
   fast_wrapper:
-    image: twista
+    image: mattwiley/twista:latest
     build:
       dockerfile: ./docker/Dockerfile
       context: ../
